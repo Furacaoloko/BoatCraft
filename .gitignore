@@ -25,3 +25,12 @@ out
 *.iml
 *.ipr
 *.iws
+*.log
+*.log.lck
+
+#minecraft
+minecraft
+config
+crash-reports
+saves
+stats
