@@ -11,11 +11,16 @@ env:
   - TERM=dumb PROJECT=Core
   - TERM=dumb PROJECT=Compatibility:BinniesMods:ExtraTrees:Materials:Wood
   - TERM=dumb PROJECT=Compatibility:BiomesOPlenty:Materials:Wood
+  - TERM=dumb PROJECT=Compatibility:DartCraft:Materials:Metal
   - TERM=dumb PROJECT=Compatibility:ExtraBiomesXL:Materials:Wood
   - TERM=dumb PROJECT=Compatibility:Forestry:Materials:Wood
   - TERM=dumb PROJECT=Compatibility:Natura:Materials:Wood
+  - TERM=dumb PROJECT=Compatibility:OreDictionary:Materials:Metal
   - TERM=dumb PROJECT=Compatibility:Thaumcraft:Materials:Wood
+  - TERM=dumb PROJECT=Compatibility:TinkersConstruct:Materials:Metal
   - TERM=dumb PROJECT=Compatibility:Vanilla:Materials:Wood
+  - TERM=dumb PROJECT=Compatibility:Vanilla:Materials:Metal
+  - TERM=dumb PROJECT=Compatibility:Vanilla:Materials:Crystal
 
 install:
   - gradle :$PROJECT:setupCIWorkspace
